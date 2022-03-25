@@ -1,0 +1,12 @@
+{
+  "name": "composer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:corneflex/compose.git",
+  "author": "steve.campos <corneflex@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  },
+  "workspaces": [ "packages/*"]
+}
