@@ -5,6 +5,7 @@
   "repository": "git@github.com:corneflex/compose.git",
   "author": "steve.campos <corneflex@gmail.com>",
   "license": "MIT",
+  "private": true,
   "devDependencies": {
     "lerna": "^4.0.0"
   },
