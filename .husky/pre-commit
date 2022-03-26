@@ -1,5 +1,5 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-npm test
+yarn lerna run test --since HEAD
 npx lint-staged
