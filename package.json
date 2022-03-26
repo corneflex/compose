@@ -6,7 +6,15 @@
   "author": "steve.campos <corneflex@gmail.com>",
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "test": "lerna run test"
+  },
   "devDependencies": {
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "@babel/preset-typescript": "^7.16.7",
+    "@testing-library/react": "^12.1.4",
+    "@types/jest": "^27.4.1",
     "@typescript-eslint/eslint-plugin": "^5.16.0",
     "@typescript-eslint/parser": "^5.16.0",
     "eslint": "^8.11.0",
@@ -17,8 +25,10 @@
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.29.4",
     "eslint-plugin-react-hooks": "^4.3.0",
+    "jest": "^27.5.1",
     "lerna": "^4.0.0",
-    "prettier": "^2.6.1"
+    "prettier": "^2.6.1",
+    "ts-jest": "^27.1.4"
   },
   "workspaces": [
     "packages/*"

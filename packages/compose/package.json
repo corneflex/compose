@@ -5,7 +5,8 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "start": "webpack-cli serve"
+    "start": "webpack-cli serve",
+    "test": "jest"
   },
   "devDependencies": {
     "@types/react": "^17.0.43",
