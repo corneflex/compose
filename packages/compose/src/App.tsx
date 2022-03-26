@@ -1,5 +1,4 @@
 import { Button } from '@corneflex/compose-ui';
+import React from 'react';
 
-export const App = () => {
-  return <Button />;
-};
+export const App: React.FC = () => <Button />;
