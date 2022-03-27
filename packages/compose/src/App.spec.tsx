@@ -1,11 +1,10 @@
 import * as React from 'react';
-import { App } from './App';
 import { render, screen } from '@testing-library/react';
-import { Button } from '@corneflex/compose-ui';
+import { App } from './App';
 
-describe('App', function () {
-  it('should display pass in number', function () {
-    render(<Button />);
-    expect(screen.getByText('hello world')).not.toBeNull();
+describe('App', () => {
+  it('should display pass in number', () => {
+    render(<App />);
+    expect(screen.getByText('Hello world')).not.toBeNull();
   });
 });

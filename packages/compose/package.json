@@ -5,15 +5,19 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "start": "webpack-cli serve",
+    "start": "webpack-cli serve --watch",
+    "build": "webpack",
     "test": "jest"
   },
   "devDependencies": {
+    "@testing-library/react": "^12.1.4",
     "@types/react": "^17.0.43",
     "@types/react-dom": "^17.0.14",
     "css-loader": "^6.7.1",
     "html-webpack-plugin": "^5.5.0",
     "mini-css-extract-plugin": "^2.6.0",
+    "postcss-loader": "^6.2.1",
+    "postcss-preset-env": "^7.4.3",
     "ts-loader": "^9.2.8",
     "tsconfig-paths-webpack-plugin": "^3.5.2",
     "typescript": "^4.6.3",
@@ -22,8 +26,9 @@
     "webpack-dev-server": "^4.7.4"
   },
   "dependencies": {
+    "@corneflex/compose-ui": "1.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "@corneflex/compose-ui": "1.0.0"
+    "tailwind-styled-components": "^2.1.4"
   }
 }

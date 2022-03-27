@@ -1,3 +1,3 @@
-import React from 'react';
+import tw from 'tailwind-styled-components';
 
-export const Button: React.FC = ()=> <button>hello world</button>
+export const Button = tw.button`btn btn-outline`;
