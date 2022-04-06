@@ -11,7 +11,8 @@
     "forceConsistentCasingInFileNames": true,
     "baseUrl": ".",
     "paths": {
-      "@corneflex/compose-ui": ["./packages/compose-ui/src"]
+      "@corneflex/compose-ui": ["./packages/compose-ui/src"],
+      "@corneflex/compose-core": ["./packages/compose-core/src"]
     }
   },
   "exclude": ["node_modules"]
